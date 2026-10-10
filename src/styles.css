@@ -1,1 +1,9 @@
-/* You can add global styles to this file, and also import other style files */
+@import "primeicons/primeicons.css";
+@font-face {
+    font-family: 'sf-arabic';
+    src: url(/fonts/sf-arabic-regular/sf-arabic-regular.ttf);
+}
+
+* {
+    font-family: 'sf-arabic', sans-serif;
+}
