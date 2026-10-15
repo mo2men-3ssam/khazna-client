@@ -1,0 +1,24 @@
+nav {
+  border-left: solid 1px #eee;
+  width: 150px;
+  padding: 20px;
+  height: 100vh;
+}
+
+nav ul {
+  list-style: none;
+}
+
+nav ul li a {
+  color: #111;
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+nav ul li {
+  transition: all 0.2s;
+}
+
+nav ul li:hover {
+  transform: translateX(-5px);
+}

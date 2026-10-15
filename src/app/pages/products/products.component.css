@@ -1,0 +1,18 @@
+p-table th, 
+p-table td {
+    text-align: center !important;
+}
+
+::ng-deep .p-datatable table th, 
+::ng-deep .p-datatable table td {
+    text-align: center;
+    justify-content: center;
+}
+
+.head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: solid 1px #eee;
+}
